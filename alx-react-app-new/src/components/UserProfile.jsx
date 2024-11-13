@@ -8,7 +8,7 @@ export default function UserProfile() {
       >
         <h2
           style={{
-            color: "#ffdab9",
+            color: "blue",
           }}
         >
           {props.name}{" "}
