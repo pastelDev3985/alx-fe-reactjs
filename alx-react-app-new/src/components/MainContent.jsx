@@ -2,7 +2,12 @@ import React from "react";
 
 export default function MainContent() {
   return (
-    <main>
+    <main
+      style={{
+        color: "navy",
+        margin: "4px",
+      }}
+    >
       <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
