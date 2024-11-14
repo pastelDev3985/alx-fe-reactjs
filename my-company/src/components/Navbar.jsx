@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
+    <div style={{ backgroundColor: "pink", justifyContent: "center" }}>
       <h1>Navbar</h1>
       <div
         style={{
