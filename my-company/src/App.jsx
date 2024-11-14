@@ -7,11 +7,11 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import "./index.css";
-import Layout from "../Layout";
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
-import Services from "./Services";
+import Layout from "./Layout";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Services from "./components/Services";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
