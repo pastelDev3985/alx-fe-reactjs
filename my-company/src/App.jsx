@@ -12,6 +12,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
+import Navbar from "./components/Navbar.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path="About" element={<About />} />
       <Route path="Contact" element={<Contact />} />
       <Route path="Services" element={<Services />} />
+      <Navbar />
     </Route>
   )
 );
