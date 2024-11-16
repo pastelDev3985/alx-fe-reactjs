@@ -1,13 +1,16 @@
 import { useState } from "react";
 import "./App.css";
+import RecipeDetails from "./components/RecipeDetails";
+import { Routes, Route } from "react-router-dom";
 import RecipeList from "./components/RecipeList";
-import AddRecipeForm from "./components/AddRecipeForm";
 
 function App() {
   return (
     <>
-      <RecipeList />
-      <AddRecipeForm />
+      <Routes>
+        <Route path="/" element={<RecipeList />} />
+        <Route path="/recipedetails" element={<RecipeDetails />} />
+      </Routes>
     </>
   );
 }
