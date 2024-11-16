@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useRecipeStore } from "./recipeStore";
+import { Link } from "react-router-dom";
 
 const RecipeList = () => {
   const recipes = useRecipeStore((state) => state.recipes);
@@ -39,6 +40,8 @@ const RecipeList = () => {
           <p>No recipes found.</p>
         )}
       </ul>
+      <Link to="/">Recipes</Link>
+      <Link to="/recipedetails">Recipe Details</Link>
     </div>
   );
 };
