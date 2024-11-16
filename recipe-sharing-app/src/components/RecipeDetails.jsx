@@ -1,5 +1,5 @@
 import { useRecipeStore } from "./recipeStore";
-import EditRecipeForm from "./EditRecipe";
+import EditRecipeForm from "./EditRecipeForm";
 import DeleteRecipeButton from "./DeleteRecipeButton";
 import RecipeList from "./RecipeList";
 
