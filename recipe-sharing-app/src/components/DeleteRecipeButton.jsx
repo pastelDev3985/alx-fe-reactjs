@@ -1,13 +1,20 @@
 import React from "react";
 import { useRecipeStore } from "./recipeStore";
+import { useNavigate } from "react-router-dom";
 
-const deleteRecipeButton = (id) => {
+const DeleteRecipeButton = (id) => {
   const deleteRecipe = useRecipeStore((state) => state.deleteRecipe);
+  const navigate = useNavigate();
+
+  const handleDelete = () => {
+    deleteRecipe(id);
+    navigate("/");
+  };
 
   return (
     <div>
-      <button onClick={() => deleteRecipe(id)}>Delete</button>
+      <button onClick={handleDelete}>Delete</button>
     </div>
   );
 };
-export default deleteRecipeButton;
+export default DeleteRecipeButton;
