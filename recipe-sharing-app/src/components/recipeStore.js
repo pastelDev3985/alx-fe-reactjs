@@ -19,4 +19,19 @@ export const useRecipeStore = create((set) => ({
         recipe.id === id ? { ...recipe, ...updatedData } : recipe
       ),
     })),
+
+  searchTerm: "",
+  setSearchTerm: (term) => set((state) => ({ searchTerm: term })),
+
+  filteredRecipes: [],
+  filterRecipes: () =>
+    set((state) => ({
+      filteredRecipes: state.recipes.filter(
+        (recipe) =>
+          recipe.title.toLowerCase().includes(state.searchTerm.toLowerCase()) ||
+          recipe.ingredients.some((ingredient) =>
+            ingredient.tolowerCase().includes(term.toLowerCase())
+          )
+      ),
+    })),
 }));

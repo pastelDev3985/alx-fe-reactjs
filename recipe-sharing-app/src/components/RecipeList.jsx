@@ -1,7 +1,16 @@
+import { useState } from "react";
 import { useRecipeStore } from "./recipeStore";
 
 const RecipeList = () => {
   const recipes = useRecipeStore((state) => state.recipes);
+  const { filteredRecipes, setSearchTerm } = useRecipeStore();
+  const [searchInput, setSearchInput] = useState("");
+
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    setSearchInput(value);
+    setSearchTerm(value);
+  };
 
   return (
     <div>
@@ -11,6 +20,25 @@ const RecipeList = () => {
           <p>{recipe.description}</p>
         </div>
       ))}
+      <h1>Recipe List</h1>
+      <input
+        type="text"
+        placeholder="Search recipes..."
+        value={searchInput}
+        onChange={handleSearchChange}
+      />
+      <ul>
+        {filteredRecipes.length > 0 ? (
+          filteredRecipes.map((recipe) => (
+            <li key={recipe.id}>
+              {recipe.name}
+              <button onClick={() => deleteRecipe(recipe.id)}>Delete</button>
+            </li>
+          ))
+        ) : (
+          <p>No recipes found.</p>
+        )}
+      </ul>
     </div>
   );
 };
