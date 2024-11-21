@@ -19,7 +19,7 @@ const handleSubmit = (e) => {
 };
 
 // Handles state error
-const [error, setError] = useState("");
+const [error, setErrors] = useState("");
 
 // Validation to check that the fields aren't empty when submitting
 const newErrors = {};
@@ -28,7 +28,7 @@ if (!email) newErrors.email = "Email is required!";
 if (!password) newErrors.password = "Password is required!";
 
 // Clears error when validation passes
-setError("");
+setErrors("");
 
 function RegistrationForm() {
   return (
