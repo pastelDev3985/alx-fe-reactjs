@@ -117,3 +117,4 @@ return (
     </Formik>
   </>
 );
+export default FormikForm;
