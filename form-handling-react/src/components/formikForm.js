@@ -9,8 +9,9 @@ const FormikForm = () => {
       .required("Username is required")
       .min(3, "Username must be at least 3 characters"),
     email: Yup.string()
-      .email("Invalid email address")
-      .required("Email is required"),
+
+      .required("Email is required")
+      .email("Invalid email address"),
     password: Yup.string()
       .required("Password is required")
       .min(6, "Password must be at least 6 characters"),
