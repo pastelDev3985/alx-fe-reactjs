@@ -22,10 +22,10 @@ const handleSubmit = (e) => {
 const [error, setError] = useState("");
 
 // Validation to check that the fields aren't empty when submitting
-if (!username || !email || !password) {
-  setError("All fields are required!");
-  return;
-}
+const newErrors = {};
+if (!username) newErrors.username = "Username is required,";
+if (!email) newErrors.email = "Email is required!";
+if (!password) newErrors.password = "Password is required!";
 
 // Clears error when validation passes
 setError("");
