@@ -2,8 +2,8 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import Profile from "./components/Profile";
-import ProfileDetails from "./components/Profile/ProfileDetails";
-import ProfileSettings from "./components/Profile/ProfileSettings";
+import ProfileDetails from "./components/ProfileDetails";
+import ProfileSettings from "./components/ProfileSettings";
 import BlogList from "./components/Blog/BlogList";
 import BlogPost from "./components/Blog/BlogPost";
 import ProtectedRoute from "./components/ProtectedRoute";
