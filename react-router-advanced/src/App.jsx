@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import Profile from "./components/Profile/Profile";
 import ProfileDetails from "./components/Profile/ProfileDetails";
 import ProfileSettings from "./components/Profile/ProfileSettings";
+import BlogList from "./components/Blog/BlogList";
+import BlogPost from "./components/Blog/BlogPost";
 
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
       <nav>
         <Link to="/">Home</Link>
         <Link to="/profile">Profile</Link>
+        <Link to="/blog">Blog</Link>
       </nav>
       <hr />
       <Routes>
@@ -26,6 +29,10 @@ const App = () => {
           <Route path="details" element={<ProfileDetails />} />
           <Route path="settings" element={<ProfileSettings />} />
         </Route>
+        {/* Blog list routes */}
+        <Route path="/blog/:id" element={<BlogList />} />
+        {/* Dynamic route */}
+        <Route path="/blog/:id" element={<BlogPost />} />
       </Routes>
     </Router>
   );
