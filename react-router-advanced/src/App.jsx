@@ -6,8 +6,8 @@ import ProfileDetails from "./components/Profile/ProfileDetails";
 import ProfileSettings from "./components/Profile/ProfileSettings";
 import BlogList from "./components/Blog/BlogList";
 import BlogPost from "./components/Blog/BlogPost";
-import { AuthProvider } from "./AuthContext";
-import ProtectedRoute from "./ProtectedRoute";
+import ProtectedRoute from "./components/ProtectedRoute";
+import { AuthProvider } from "./components/AuthContext";
 
 const App = () => {
   return (
