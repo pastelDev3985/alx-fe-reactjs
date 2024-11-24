@@ -1,11 +1,11 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import TodoApp from "../components/TodoList.jsx";
+import TodoList from "../components/TodoList.jsx";
 
 describe("TodoApp Component", () => {
   test("renders initial state with demo todos", () => {
     // Render the TodoApp component
-    render(<TodoApp />);
+    render(<TodoList />);
 
     // Check that the TodoApp renders the correct number of todos
     const todoItems = screen.getAllByRole("listitem");
@@ -20,7 +20,7 @@ describe("TodoApp Component", () => {
 describe("TodoApp Component", () => {
   test('should add a new todo when the "Add" button is clicked', () => {
     // Render the TodoApp component
-    render(<TodoApp />);
+    render(<TodoList />);
 
     // Get the input field and the "Add" button
     const input = screen.getByPlaceholderText("Add a new todo");
@@ -39,7 +39,7 @@ describe("TodoApp Component", () => {
 describe("TodoApp Component", () => {
   test("should toggle a todo item between completed and not completed", () => {
     // Render the TodoApp component
-    render(<TodoApp />);
+    render(<TodoList />);
 
     // Get the first todo text and the list item element
     const todoItem = screen.getByText("Learn React");
@@ -64,7 +64,7 @@ describe("TodoApp Component", () => {
 describe("TodoApp Component", () => {
   test('should delete a todo item when the "Delete" button is clicked', () => {
     // Render the TodoApp component
-    render(<TodoApp />);
+    render(<TodoList />);
 
     // Get the todo text for the item to be deleted
     const todoToDelete = screen.getByText("Learn React");
