@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const TodoList = () => {
+const TodoApp = () => {
   // Initial todos
   const [todos, setTodos] = useState([
     { id: 1, text: "Learn React", completed: false },
@@ -81,4 +81,4 @@ const TodoList = () => {
   );
 };
 
-export default TodoList;
+export default TodoApp;
