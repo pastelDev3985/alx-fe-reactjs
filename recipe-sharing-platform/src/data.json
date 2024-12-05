@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://img.freepik.com/free-photo/smoked-meat-cheese-near-pasta_23-2147772003.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://img.freepik.com/premium-photo/concept-tasty-food-with-chicken-tikka-wooden-background_185193-63825.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid"
+  },
+  {
+    "id": 3,
+    "title": "Allotment Cottage Pie",
+    "summary": "There’s a reason classic cottage pie is a family favourite – rich meaty sauce made with beef, carrots and red wine topped with fluffy, cheesy mash is a wonderful combination.",
+    "image": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/07/830981-1-eng-GB_cottage-pie-768x960.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Ultimate omelette Arnold Bennett",
+    "summary": "The omelette provides a base for smoked haddock, cheese and a rich hollandaise, grilled until golden. A great centrepiece for a celebratory brunch.",
+    "image": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2024/10/Omlette_Arnold_Bennett_009-768x960.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Trout, spring onion and wild garlic quiche",
+    "summary": "Wild garlic gives this creamy quiche a delicate fragrance that lifts the oily trout beautifully.",
+    "image": "https://img.freepik.com/free-photo/food-photography-restaurant-concept-top-view-vegetable-pie_176420-15967.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid"
+  }
+]
