@@ -1,24 +1,13 @@
 import React, { useState, useEffect } from "react";
+import mockData from "../data.json";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
     console.log("Attempting to fetch data...");
-
-    fetch("../data.json", { cache: "no-store" })
-      .then((response) => {
-        console.log("Response received:", response);
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log("Data loaded successfully:", data);
-        setRecipes(data);
-      })
-      .catch((error) => console.error("Fetch error: ", error));
+    setRecipes(mockData);
   }, []);
   return (
     <div className="p-6 bg-[#3B2D4D] min-h-screen">
@@ -37,7 +26,12 @@ const HomePage = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h2 className="text-xl font-bold text-white">{recipe.title}</h2>
+              <Link
+                to={`/recipe/${recipe.id}`}
+                className="text-xl font-bold text-white hover:underline"
+              >
+                {recipe.title}
+              </Link>
               <p className="text-[#D7C5DF]">{recipe.summary} </p>
             </div>
           </div>

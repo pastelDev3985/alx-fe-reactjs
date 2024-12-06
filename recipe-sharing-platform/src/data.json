@@ -3,30 +3,134 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://img.freepik.com/free-photo/smoked-meat-cheese-near-pasta_23-2147772003.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid"
+    "image": "https://img.freepik.com/free-photo/smoked-meat-cheese-near-pasta_23-2147772003.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid",
+    "ingredients": [
+      "½ tbsp olive oil",
+      "75g/2½ oz pancetta, chopped",
+      "200g/7oz dried spaghetti",
+      "2 large free-range eggs",
+      "100g/3½oz Parmesan ,grated ,plus extra for serving",
+      "1 tbsp full-fat milk (optional)",
+      "salt and freshly ground pepper"
+    ],
+    "instructions": [
+      "Heat the oil in a frying pan over a medium heat. Add the pancetta and cook until crisp and slightly browned. Remove the pan from the heat and set aside.",
+      "Bring a large saucepan of salted water to the boil. Add the spaghetti and cook for 8 to 10 minutes, until firm but slightly chewy (al dente).",
+      "While the spaghetti is cooking, beat together the eggs and Parmesan with a fork. If it's a little thick, add some milk. Season well with salt and pepper.",
+      "Once the spaghetti is cooked, drain over a bowl, reserving some of the cooking water.",
+      "Place the frying pan with the pancetta in back over a medium to low heat. Add the drained spaghetti and egg mixture and stir thoroughly so all the spaghetti is coated in the sauce. Add 1 to 2 tablespoons of the reserved pasta water to loosen, if necessary. Serve immediately on hot plates with grated Parmesan on top."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://img.freepik.com/premium-photo/concept-tasty-food-with-chicken-tikka-wooden-background_185193-63825.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid"
+    "image": "https://img.freepik.com/premium-photo/concept-tasty-food-with-chicken-tikka-wooden-background_185193-63825.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid",
+    "ingredients": [
+      "4 skinless free-range chicken breasts",
+      "2 onions",
+      "5cm piece of ginger",
+      "½ a bunch of fresh coriander",
+      "1 fresh red chilli",
+      "groundnut or vegetable oil",
+      "1 x 400g tin of plum tomatoes",
+      "½ x 400g tin of light coconut milk",
+      "1 small handful of flaked almonds",
+      "fat-free natural yoghurt",
+      "1 lemon"
+    ],
+    "instructions": [
+      "To make the curry paste, halve, deseed and roughly chop the chilli(es), then peel the garlic and ginger.",
+      "Place a frying pan over a medium-high heat and scatter in the cumin and coriander seeds. Lightly toast for a few minutes, or until golden brown and smelling delicious, then remove from the heat.",
+      "Add the toasted spices to a pestle and mortar and grind until fine, or whiz to a powder in a food processor.",
+      "Once ground, add the toasted spices to a food processor along with the remaining paste ingredient and ½ teaspoon of sea salt, then whiz to a smooth paste. Put aside.",
+      "Slice the chicken lengthways into 2cm strips.",
+      "On a clean chopping board, peel, halve and finely slice the onions. Peel and finely slice the ginger, then pick the coriander leaves and put to one side, finely chopping the stalks along with the chilli.",
+      "Heat 2 tablespoons of oil in a large casserole pan over a medium-high heat, add the onions, chilli, ginger and coriander stalks, then cook for around 10 minutes, or until softened and lightly golden.",
+      "Add the chicken and 140g of the tikka masala paste, stirring well so everything is nicely coated. Season with salt and black pepper, add the tomatoes, breaking them up with the back of a spoon, and the coconut milk, then bring to the boil.",
+      "Turn the heat down to medium-low, cover and simmer for 20 minutes, then remove the lid and cook for a further 5 minutes, or until the meat is tender and the sauce has reduced, stirring occasionally.",
+      "Divide the curry between bowls, sprinkle over the almonds and coriander leaves. Add a dollop of yoghurt and a wedge of lemon to each bowl. Delicious served with fluffy rice."
+    ]
   },
   {
     "id": 3,
     "title": "Allotment Cottage Pie",
     "summary": "There’s a reason classic cottage pie is a family favourite – rich meaty sauce made with beef, carrots and red wine topped with fluffy, cheesy mash is a wonderful combination.",
-    "image": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/07/830981-1-eng-GB_cottage-pie-768x960.jpg"
+    "image": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/07/830981-1-eng-GB_cottage-pie-768x960.jpg",
+    "ingredients": [
+      "50ml/2fl oz olive oil",
+      "1 large onion or 3–4 banana shallots, finely chopped",
+      "650g/1lb 7oz beef mince",
+      "2 tbsp tomato purée",
+      "1 tbsp plain flour",
+      "150ml/5fl oz red wine",
+      "4 sprigs fresh thyme, leaves only",
+      "400ml/14fl oz beef stock",
+      "Worcestershire sauce, to taste",
+      "salt and freshly ground black pepper",
+      "900g/2lb King Edward potatoes, peeled and chopped",
+      "115g/4oz butter",
+      "125ml/4½fl oz milk"
+    ],
+    "instructions": [
+      "Heat half the oil in a large heavy-based pan. Add the onion and cook until softened. Tip it onto a plate.",
+      "Return the pan to the heat and add the remaining oil. When it's hot, fry the mince, in batches if needed, for 4–5 minutes, or until browned all over.",
+      "Stir in the cooked onion and tomato purée and cook for 1 minute. Stir in the flour and cook for a further minute. Pour in the red wine, scraping up any caramelised bits with a wooden spoon, and add the thyme.",
+      "Add the stock and simmer for 45 minutes, or until the mince is tender and the mixture has thickened. Season to taste, and add a few dashes of Worcestershire sauce. Keep warm over a very low heat.",
+      "Meanwhile, for the mash, put the potatoes in a pan of salted water and bring to the boil. Reduce the heat and simmer for 12–15 minutes, or until they are tender.",
+      "Drain and return the potatoes to the pan, then place over the heat for about 1 minute to drive off any excess moisture. Mash well, then add the butter and milk, beating to form a smooth mash. Season to taste.",
+      "Preheat the grill to high. Put the cottage pie filling in a baking dish and spoon the mash over the top. Grill for 8–10 minutes, or until golden-brown.",
+      "Meanwhile, boil the peas in boiling water in a small saucepan for 3–4 minutes, then drain and add the butter. Serve the cottage pie with the peas."
+    ]
   },
   {
     "id": 4,
     "title": "Ultimate omelette Arnold Bennett",
     "summary": "The omelette provides a base for smoked haddock, cheese and a rich hollandaise, grilled until golden. A great centrepiece for a celebratory brunch.",
-    "image": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2024/10/Omlette_Arnold_Bennett_009-768x960.jpg"
+    "image": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2024/10/Omlette_Arnold_Bennett_009-768x960.jpg",
+    "ingredients": [
+      "2 knobs of butter",
+      "large handful spinach",
+      "2 free-range eggs",
+      "15g/½oz cheddar, grated",
+      "salt and freshly ground black pepper"
+    ],
+    "instructions": [
+      "Melt a knob of butter in a frying pan placed over a medium heat. Add the spinach and cook for 1–2 minutes, until wilted. Season with salt and pepper. Tip out onto a plate and set aside.",
+      "In a bowl, beat the eggs until just mixed. Return the frying pan to a medium–high heat, add the remaining butter and melt until beginning to foam, then swirl it around the pan.",
+      "Pour in the beaten eggs, then tilt the pan to distribute the eggs evenly. Leave for 20 seconds, until the eggs begin to bubble.",
+      "Working quickly, use a spatula or wooden spoon to draw in the sides of the eggs to the centre, incorporating the butter. Gently shake the pan to redistribute the egg to the edges.",
+      "Sprinkle over the cheese and spinach while the egg is still slightly runny in the middle, then remove the pan from the heat. The residual heat will continue to cook the egg. Season with salt and pepper.",
+      "Using a spatula, fold one third of the omelette into the middle, then turn the omelette onto a warm plate folding over itself. Serve immediately."
+    ]
   },
   {
     "id": 5,
     "title": "Trout, spring onion and wild garlic quiche",
     "summary": "Wild garlic gives this creamy quiche a delicate fragrance that lifts the oily trout beautifully.",
-    "image": "https://img.freepik.com/free-photo/food-photography-restaurant-concept-top-view-vegetable-pie_176420-15967.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid"
+    "image": "https://img.freepik.com/free-photo/food-photography-restaurant-concept-top-view-vegetable-pie_176420-15967.jpg?ga=GA1.1.1268978201.1720266385&semt=ais_hybrid",
+    "ingredients": [
+      "175g/6oz plain flour, plus extra for dusting",
+      "75g/2¾oz butter, plus extra for greasing salt",
+      "250g/9oz cheddar, grated",
+      "4 tomatoes, sliced (optional)",
+      "200g/7oz streaky bacon, chopped",
+      "5 free-range eggs, beaten",
+      "100ml/3½fl oz milk",
+      "200ml/7fl oz double cream",
+      "2 sprigs fresh thyme",
+      "freshly ground black pepper"
+    ],
+    "instructions": [
+      "To make the pastry, sift the flour together with a pinch of salt in a large bowl. Rub in the butter until you have a soft breadcrumb texture. Add enough cold water to make the crumb mixture come together to form a firm dough, and then rest it in the fridge for 30 minutes.",
+      "Roll out the pastry on a light floured surface and line a 22cm/8½in well-buttered flan dish. Don't cut off the edges of the pastry yet. Chill again.",
+      "Preheat the oven to 190C/170C Fan/Gas 5.",
+      "Remove the pastry case from the fridge and line the base of the pastry with baking parchment and then fill it with baking beans. Place on a baking tray and bake blind for 20 minutes. Remove the beans and parchment and return to the oven for another five minutes to cook the base",
+      "Reduce the temperature of the oven to 160C/140C Fan/Gas 3.",
+      "Sprinkle the cheese into the pastry base and add the sliced tomatoes if you are using them. Fry the bacon pieces until crisp and sprinkle over them over the top.",
+      "Combine the eggs with the milk and cream in a bowl and season well. Pour over the bacon and cheese. Sprinkle the thyme over the top and trim the edges of the pastry.",
+      "Bake for 30–40 minutes, or until set. Allow to cool and set further.",
+      "Trim the pastry edges to get a perfect edge and then serve in wedges."
+    ]
   }
 ]
