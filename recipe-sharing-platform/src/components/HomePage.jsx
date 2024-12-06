@@ -6,7 +6,7 @@ const HomePage = () => {
   useEffect(() => {
     console.log("Attempting to fetch data...");
 
-    fetch("../../data.json", { cache: "no-store" })
+    fetch("../data.json", { cache: "no-store" })
       .then((response) => {
         console.log("Response received:", response);
         if (!response.ok) {
