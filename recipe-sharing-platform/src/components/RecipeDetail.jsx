@@ -21,7 +21,7 @@ const RecipeDetail = () => {
           alt={recipe.title}
           className="w-full h-96 object-cover mb-4"
         />
-        <div className="bg-[#382B49] p-6 rounded-3xl mb-4">
+        <div className="bg-[#382B49] p-6 rounded-3xl mb-4 shadow-md">
           <h2 className="text-2xl font-semibold mb-2 text-white">
             Ingredients
           </h2>
@@ -33,7 +33,7 @@ const RecipeDetail = () => {
             ))}
           </ul>
         </div>
-        <div className="bg-[#382B49] p-6 rounded-3xl mb-4">
+        <div className="bg-[#382B49] p-6 rounded-3xl mb-4 shadow-md">
           <h2 className="text-2xl font-semibold mb-2 text-white">
             Instructions
           </h2>
