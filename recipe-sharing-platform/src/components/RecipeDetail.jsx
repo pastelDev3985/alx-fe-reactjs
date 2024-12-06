@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import mockData from "../data.json";
 
 const RecipeDetail = () => {
   const { id } = useParams();
   const recipe = mockData.find((recipe) => recipe.id === parseInt(id));
-
+  useEffect;
   console.log("Recipe:", recipe);
 
   if (!recipe) {
