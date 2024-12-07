@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 steps;
+validate;
 
 const AddRecipeForm = () => {
   const [title, setTitle] = useState("");
