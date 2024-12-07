@@ -100,7 +100,7 @@ const AddRecipeForm = () => {
             <p className="text-red-700 text-sm mt-2">{errors.instructions}</p>
           )}
         </div>
-        <div className="p-8 text-center rounded-lg bg-[#382B49] overflow-auto transition-transform hover:scale-105 duration-200">
+        <div className="p-8 text-center rounded-lg bg-[#382B49] overflow-auto transition-transform hover:scale-105 duration-200 shadow-lg">
           <button
             type="submit"
             disabled={!isValid}
