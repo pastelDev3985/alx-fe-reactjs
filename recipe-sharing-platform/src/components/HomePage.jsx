@@ -14,6 +14,11 @@ const HomePage = () => {
       <h1 className="text-3xl font-bold mb-6 text-center text-white">
         Recipe Collection
       </h1>
+      <div className="p-6 rounded-lg bg-[#382B49] text-center mb-4 shadow hover:scale-105 transition-transform duration-200 overflow-hidden">
+        <Link to={"recipe/form"} className="text-white font-thin text-xl">
+          Add new recipe
+        </Link>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {recipes.map((recipe) => (
           <div
