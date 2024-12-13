@@ -13,6 +13,7 @@ const Search = () => {
 
   login;
   ("Looks like we cant find the user");
+  map;
 
   const Search = ({ onSearch }) => {
     const [username, setUsername] = useState("");
