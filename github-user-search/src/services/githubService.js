@@ -8,19 +8,40 @@ const GITHUB_API_URL = "https://api.github.com/users/";
  * @param {string} username - The GitHub username to search for
  * @returns {Promise<Object>} - A promise that resolves to the user data
  */
-export const fetchUserData = async (username) => {
+export const fetchUserData = async (username, location, minRepos) => {
   try {
-    // Send GET request to GitHub API
-    const response = await axios.get(`${GITHUB_API_URL}${username}`);
+    // Construct the search query
+    let query = `user:${username}`;
 
-    // Return the user data
-    return response.data;
-  } catch (error) {
-    // Handle errors (e.g., user not found or API rate limit exceeded)
-    if (error.response && error.response.status === 404) {
-      throw new Error("User not found.");
-    } else {
-      throw new Error("An error occurred while fetching user data.");
+    // Add location filter if provided
+    if (location) {
+      query += ` location:${location}`;
     }
+
+    // Add minimum repositories filter if provided
+    if (minRepos) {
+      query += ` repos:>${minRepos}`;
+    }
+
+    // Perform API request
+    const response = await axios.get(`${BASE_URL}/search/users`, {
+      params: {
+        q: query, // Search query string
+      },
+    });
+
+    // Check if we got any results
+    const users = response.data.items;
+    if (users.length === 0) {
+      throw new Error("No users found matching the criteria.");
+    }
+
+    // Fetch detailed information for the first user in the result
+    const userResponse = await axios.get(users[0].url);
+    return userResponse.data;
+  } catch (error) {
+    throw new Error(
+      error.response?.data?.message || "Failed to fetch user data."
+    );
   }
 };
