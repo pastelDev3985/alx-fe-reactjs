@@ -8,6 +8,7 @@ const Search = () => {
   const [loading, setLoading] = useState(false);
 
   login;
+  ("Looks like we cant find the user");
 
   const Search = ({ onSearch }) => {
     const [username, setUsername] = useState("");
