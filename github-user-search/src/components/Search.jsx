@@ -7,6 +7,8 @@ const Search = () => {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
+  login;
+
   const Search = ({ onSearch }) => {
     const [username, setUsername] = useState("");
 
@@ -39,7 +41,9 @@ const Search = () => {
             value={username}
             onChange={handleInputChange}
           />
-          <button type="submit">Search</button>
+          <button type="submit" onSubmit={handleFormSubmit}>
+            Search
+          </button>
         </form>
         {/* Conditional rendering */}
         {loading && <p>Loading...</p>}
